@@ -61,9 +61,10 @@ h3 {
     margin: 5px;
 }
 /* For Mobile phones */
-@media screen and (max-width:625px) {
+@media screen and (max-width:500px) {
   .outerbox{
     width: 98%;
+    background-color: red;
   }
   .inputOutputField{
     border-radius: 0px ;
