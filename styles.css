@@ -1,7 +1,7 @@
 .maincontainer
 {
     height: 100vh;
-    background-color: #b2bec3;
+    /* background-color: #b2bec3; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,23 +61,23 @@ h3 {
     margin: 5px;
 }
 /* For Mobile phones */
-@media screen and (max-width:400px) {
+@media screen and (max-width:625px) {
   .outerbox{
-    background-color:#ffeaa7;
-    border: 2px solid black;
-    border-radius: 12px;
-    height: auto;
     width: 98%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 6px 1px 6px 1px;
-    box-sizing: border-box;
+  }
+  .inputOutputField{
+    border-radius: 0px ;
+    width: 153px ;
+  }
+  #initialtemp{
+    margin-right: 3px;
+  }
+  #finaltemp{
+    margin-left: 3px;
   }
   .scaleSelecter{
     margin:5px 12px; 
     width: 155px;
-    border: 1px solid black;
   }
   #formulaeFont{
     margin: 2px;
